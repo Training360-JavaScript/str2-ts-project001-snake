@@ -16,7 +16,7 @@ bele__ a másiknak kiosztott fájlba, így nem fog conflict létrejönni.
 - Rendszeresen commit -oljatok és push -oljatok.
 
 ## Program futtatása
-- Klónozd le a gépedrea github repo-t, ami a feladat elfogadása után létrejön.
+- Klónozd le a gépedre a github repo-t, ami a feladat elfogadása után létrejön.
 - Figyelem, itt nem lesz mindenkinek saját repo-ja, team-repo lesz.
 - Állítsd be a code gyökerének a mappát: `code . -r`
 - Telepítsd a függőségeket: `npm i`
