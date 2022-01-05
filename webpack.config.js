@@ -47,7 +47,7 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        static: path.resolve(__dirname, 'dist'),
         compress: true,
         port: 4200
     },

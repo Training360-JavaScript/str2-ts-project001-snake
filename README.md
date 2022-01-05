@@ -9,13 +9,15 @@ a kódot. A csapat minden tagja külön fájlban dolgozzon és __soha ne írjato
 bele__ a másiknak kiosztott fájlba, így nem fog conflict létrejönni.
 
 ## Github
-- A csapat egyik tagja forkolja az alap játékot a Github -on. 
-- Ezután hívja meg a többi csapattagot a repo -ba.
+- A csapat egyik tagja lépjen be először a ClassRoom-ba a megadott linkkel. 
+- Hozzon létre egy új team-et, majd lépjen be ebbe a team-be.
+- A többiek már a meglévő team-be lépjenek be.
 - Beszéljétek meg, ki melyik feladaton szeretne dolgozni.
 - Rendszeresen commit -oljatok és push -oljatok.
 
 ## Program futtatása
-- Lépj be a mappába: `cd str-snake`
+- Klónozd le a gépedrea github repo-t, ami a feladat elfogadása után létrejön.
+- Figyelem, itt nem lesz mindenkinek saját repo-ja, team-repo lesz.
 - Állítsd be a code gyökerének a mappát: `code . -r`
 - Telepítsd a függőségeket: `npm i`
 - Indítsd el a szervert: `npm run serve`
@@ -37,7 +39,7 @@ A feladatokat négy fájlban találjátok:
 - Ha 20 pontot elért a játékos nullázódjanak a pontjai.
 
 ## Csapatmunka Javaslatok
-- Mutatkozzatok be röviden egymásnak, mielőtt kezditek a munkát.
+- Hozzatok össze egy kis videókonferenciát és mutatkozzatok be röviden egymásnak.
 - Mindenki válaszoljon három kérdésre:
 1. Kedvenc film
 1. Kedvenc étel
