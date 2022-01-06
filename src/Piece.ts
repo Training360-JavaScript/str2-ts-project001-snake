@@ -30,8 +30,8 @@ interface IPiece {
   setType(type: string): void;
 
   /**
-   * Osztályokat állít be a this.el HTML elemre.
-   * 1. A this.el.className -et üres string -re állítja.
+   * Osztályokat állít be a this.el HTML-elemre.
+   * 1. A this.el.className-et üres string-re állítja.
    * 2. A this.el.classList.add metódussal hozzáad három új osztályt:
    * 'cell', this.type, this.direction
    */
@@ -42,8 +42,8 @@ interface IPiece {
    * @param node {Piece}
    * @returns {boolean}
    * Ha a node falsy, akkor false értékkel tér vissza, 
-   * Ha nem, akkor akkor tér vissza true -val, ha a this.x egyenlő a node.x -el 
-   * és a this.y egyenlő a node.y -al.
+   * Ha nem, akkor abban az esetben tér vissza true-val, ha a this.x egyenlő a node.x-szel 
+   * és a this.y egyenlő a node.y-nal.
    */
   isCollidingWith(node: Piece | null): boolean;
 }
