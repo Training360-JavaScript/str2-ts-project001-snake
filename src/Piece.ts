@@ -41,7 +41,7 @@ interface IPiece {
    * Megállapítja, hogy ütközött-e a kígyó darabja valamivel.
    * @param node {Piece}
    * @returns {boolean}
-   * Ha a node null, akkor false értékkel tér vissza, 
+   * Ha a node falsy, akkor false értékkel tér vissza, 
    * Ha nem, akkor akkor tér vissza true -val, ha a this.x egyenlő a node.x -el 
    * és a this.y egyenlő a node.y -al.
    */
