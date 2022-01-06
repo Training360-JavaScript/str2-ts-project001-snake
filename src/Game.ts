@@ -9,7 +9,7 @@ import BaseGame from './BaseGame';
 
 /**
  * FELADAT!
- * A feladat két lépésbő áll:
+ * A feladat két lépésből áll:
  * 1. Pótold a hiányzó tulajdonságokat a BaseGame osztályban az IBaseGame
  * interfész alpján.
  * 2. A BaseGame osztályban található leírások alapján pótold ebben a Game 
