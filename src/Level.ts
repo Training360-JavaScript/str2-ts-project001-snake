@@ -94,7 +94,7 @@ export default class Level {
 
       /**
        * FELADAT!
-       * Olvasd ki a fenti sorhoz hasonlóan az x1 és y1 koodrinátákat is, 
+       * Olvasd ki a fenti sorhoz hasonlóan az x1 és y1 koordinátákat is, 
        * a line második eleméből!
        */
 
@@ -102,7 +102,7 @@ export default class Level {
 
       /**
        * FELADAT!
-       * Hívd meg a this.line metódust és add neki át az x0, y0, x1, y1 
+       * Hívd meg a this.line metódust, és add neki át az x0, y0, x1, y1 
        * értékeket.
        */
 
