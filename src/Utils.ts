@@ -4,11 +4,11 @@ class Debouncer {
 
     /**
      * FELADAT!
-     * Hozd létre a statikus bound metódust.
+     * Hozd létre a statikus bound metódust!
      * @param num {number}
      * @param min {number}
      * @param max {number}
-     * @returns {number} - válaszd ki a kisebbet a num és a max közül 
+     * @returns {number} - Válaszd ki a kisebbet a num és a max közül, 
      * majd válaszd ki a nagyobbat az előbbi érték és a min közül.
      */
     
@@ -39,7 +39,7 @@ class Utils extends Debouncer {
     /**
      * FELADAT!
      * Hozd létre a removeNode nevű statikus metódust!
-     * A metódus a kapott elemet eltávolítja a saját parentNode -jából.
+     * A metódus a kapott elemet eltávolítja a saját parentNode-jából.
      * @param el {Element} - egy DOM Element típus
      * @returns {void}
      */
